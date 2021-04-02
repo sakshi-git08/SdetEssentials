@@ -1,1 +1,6 @@
-{"bookName":"Java","purchaseDate":"2021-03-30","amount":200,"location":"Africa"}
+{
+  "bookName": "Java",
+  "purchaseDate": "2021-03-30",
+  "amount": 200,
+  "location": "Africa"
+}

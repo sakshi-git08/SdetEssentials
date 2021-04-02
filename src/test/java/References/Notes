@@ -29,3 +29,7 @@ string valueOf() method converts different types of values into string.
 objectMapper.writeValue that can be used to serialize any Java value as JSON output, using Writer provided.
 
 cd /e/Study/Codes - to navigate to another drive than C in git bash
+
+ObjectMapper.readValue - The simple readValue API of the ObjectMapper is a good entry point.
+We can use it to parse or deserialize JSON content into a Java object. Also, on the writing side,
+we can use the writeValue API to serialize any Java object as JSON output.
