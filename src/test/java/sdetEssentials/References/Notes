@@ -27,3 +27,5 @@ will close any Statement s that connection has created
 string valueOf() method converts different types of values into string.
 
 objectMapper.writeValue that can be used to serialize any Java value as JSON output, using Writer provided.
+
+cd /e/Study/Codes - to navigate to another drive than C in git bash
