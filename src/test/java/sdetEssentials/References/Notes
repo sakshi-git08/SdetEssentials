@@ -1,0 +1,29 @@
+ctrl+alt+l --> to format json file say customerInfo.json
+JDBC Connection
+1. Create a Connection
+2. create a statement/query
+3. Execute query then store the results
+4. Print the results
+
+POJO Class - Plain Object Java Class which contains getters and setters for
+the variables which we want to get the values from user.
+
+@Data is from lombok library which is EQUIVALENT TO COMBINATION OF @GETTER @SETTER @REQUIREDARGSCONSTRUCTOR @TOSTRING
+@EQUALSANDHASHCODE
+LOMBOK DATA ANNOTATION (@DATA) GENERATES GETTERS FOR ALL FIELDS,
+A USEFUL TOSTRING METHOD, AND HASHCODE AND EQUALS IMPLEMENTATIONS THAT CHECK ALL NON-TRANSIENT FIELDS.
+WILL ALSO GENERATE SETTERS FOR ALL NON-FINAL FIELDS, AS WELL AS A CONSTRUCTOR.
+A @DATA ANNOTATIONS EQUIVALENT TO COMBINATION OF @GETTER @SETTER @REQUIREDARGSCONSTRUCTOR @TOSTRING @EQUALSANDHASHCODE.
+
+     Using Jackson API, convert java object into JSON File
+Maven Dependencies Required :
+Jackson Core, Jackson Databind, Jackson Annotations
+
+is it necessary to close statement object in db code?
+No you are not required to close anything BUT the connection. As Per JDBC specs
+closing any higher object will automatically close lower objects. Closing Connection
+will close any Statement s that connection has created
+
+string valueOf() method converts different types of values into string.
+
+objectMapper.writeValue that can be used to serialize any Java value as JSON output, using Writer provided.
