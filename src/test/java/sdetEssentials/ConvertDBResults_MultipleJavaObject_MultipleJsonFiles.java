@@ -54,7 +54,7 @@ public class ConvertDBResults_MultipleJavaObject_MultipleJsonFiles {
             for(int i = 0; i<customerDetailsArrayList.size(); i++) {
                 //In order to create multiple json files we did customerInfo"+i+"+.json name the file this way
                 //which will ensure that multiple files will be created number of i times else only one file would have created.
-                File jsonFile = new File("D:\\SdetEssentials\\src\\test\\java\\customerInfo"+i+".json");
+                File jsonFile = new File("D:\\SdetEssentials\\src\\test\\java\\JsonFiles\\customerInfo"+i+".json");
                 ObjectMapper objectMapper = new ObjectMapper();
                 //writeValue that can be used to serialize any Java value as JSON output, using Writer provided.
                 objectMapper.writeValue(jsonFile, customerDetailsArrayList.get(i));//this will convert our object to json file

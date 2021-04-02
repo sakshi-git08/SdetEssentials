@@ -44,7 +44,7 @@ public class ConvertDBResults_SingleJavaObject_SingleJsonFile {
             Maven Dependencies Required :
             Jackson Core, Jackson Databind, Jackson Annotations*/
 
-            File jsonFile = new File("D:\\SdetEssentials\\src\\test\\java\\customerInfo.json");
+            File jsonFile = new File("D:\\SdetEssentials\\src\\test\\java\\JsonFiles\\customerInfo.json");
             ObjectMapper objectMapper = new ObjectMapper();
             //writeValue that can be used to serialize any Java value as JSON output, using Writer provided.
             objectMapper.writeValue(jsonFile, customerDetails);//this will convert our object to json file
