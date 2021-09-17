@@ -15,7 +15,7 @@ public class RetrieveDataFromDb_JDBC {
         Connection con = DriverManager.
                 getConnection("jdbc:mysql://localhost:3306/classicmodels", "root","password");
         Statement stmt = con.createStatement();
-        String sq = "Select * from customerInfo limit 1";
+        String sq = "Select * from customerInfo";
         ResultSet rs = stmt.executeQuery(sq);
 
         while(rs.next()){

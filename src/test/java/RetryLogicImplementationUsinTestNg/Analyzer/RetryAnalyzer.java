@@ -1,4 +1,4 @@
-package Analyzer;
+package RetryLogicImplementationUsinTestNg.Analyzer;
 
 import org.testng.IRetryAnalyzer;
 import org.testng.ITestResult;

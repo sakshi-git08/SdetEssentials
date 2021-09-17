@@ -23,8 +23,10 @@ public class ExtendReportsClass {
         //ExtentReports(String filePath,Boolean replaceExisting)
         //filepath - path of the file, in .htm or .html format - path where your report needs to generate.
         //replaceExisting - Setting to overwrite (TRUE) the existing file or append to it
-        //True (default): the file will be replaced with brand new markup, and all existing data will be lost. Use this option to create a brand new report
-        //False: existing data will remain, new tests will be appended to the existing report. If the the supplied path does not exist, a new file will be created.
+        //True (default): the file will be replaced with brand new markup, and all existing data will be lost.
+        // Use this option to create a brand new report
+        //False: existing data will remain, new tests will be appended to the existing report. If the the supplied path does not exist,
+        // a new file will be created.
         extent = new ExtentReports (System.getProperty("user.dir") +"/test-output/FirstExtentReport .html", true);
         //extent.addSystemInfo("Environment","Environment Name")
         extent

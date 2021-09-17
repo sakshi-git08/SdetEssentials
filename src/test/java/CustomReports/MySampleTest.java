@@ -1,9 +1,9 @@
-package RetryLogicImplementationUsinTestNg.mytests;
+package CustomReports;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-public class MyTests {
+public class MySampleTest {
 
     @Test
     public void test1(){
