@@ -2,7 +2,6 @@ package sdetEssentials.Deserialization;
 
 import io.restassured.RestAssured;
 import io.restassured.specification.RequestSpecification;
-import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import java.util.List;
